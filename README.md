@@ -12,8 +12,8 @@ npm install compatibility-check
 
 ## 使用方式
 
-检测指定文件, -d 可以是目录或文件路径 -e 是限制检测范围，例如 js,html 一般配合-d 使用
+检测指定文件, -d 可以是目录或文件路径 -e 是限制检测范围，例如 js,html 一般配合-d 使用, 需要Node环境
 ```sh
-compatible -d ./demo/index.html
+compatible check -d ./demo/index.html
 ```
 
