@@ -14,6 +14,9 @@
     "type": "git",
     "url": "https://github.com/duanleijian/compatibility-check"
   },
+  "bin": {
+    "compatible" : "index.js"
+  },
   "scripts": {
     "demo": "node ./index.js compatible -d ./demo/index.html",
     "demo:dir": "node ./index.js compatible -d ./"
