@@ -2,7 +2,7 @@
   "name": "compatibility-check",
   "main": "index.js",
   "description": "兼容性检测工具",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "leijianduan",
   "keywords": [
     "compatible",
@@ -15,7 +15,7 @@
     "url": "https://github.com/duanleijian/compatibility-check"
   },
   "bin": {
-    "compatible" : "index.js"
+    "compatible": "index.js"
   },
   "scripts": {
     "demo": "node ./index.js compatible -d ./demo/index.html",
