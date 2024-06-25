@@ -1,4 +1,4 @@
-
+#! /usr/bin/env node
 const path = require('path');
 
 const { PATH_TYPE, ES_NAME_MAP, MATCH_MODE, ES2015, ES2015_MATCH_RULE } = require('./constants');

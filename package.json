@@ -19,7 +19,7 @@
   },
   "scripts": {
     "demo": "node ./index.js compatible -d ./demo/index.html",
-    "demo:dir": "node ./index.js compatible -d ./"
+    "demo:dir": "node ./index.js compatible -d ./"    
   },
   "dependencies": {
     "commander": "^12.0.0"
