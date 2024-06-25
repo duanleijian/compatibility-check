@@ -2,7 +2,7 @@
   "name": "compatibility-check",
   "main": "index.js",
   "description": "兼容性检测工具",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "leijianduan",
   "keywords": [
     "compatible",
