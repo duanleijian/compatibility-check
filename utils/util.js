@@ -8,4 +8,14 @@ function getLineCount(targetStr) {
   return count;
 }
 
-module.exports = { getLineCount };
+function keyTransform(str, sepatator) {
+  const reg = new RegExp(`${sepatator}(.)?`, 'g');
+  const convertNum = str.split(sepatator).length;
+  for (let i = 1; i <= convertNum; i++) {
+    const targetChar = str[str.indexOf('-') + 1];
+    str = str.replace(reg, targetChar.toUpperCase());
+  }
+  return str;
+}
+
+module.exports = { getLineCount, keyTransform };
