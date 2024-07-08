@@ -27,7 +27,7 @@ function getCssConfig(text) {
 
 function isSupportStyle(cssConfig) {  
   Object.keys(cssConfig).forEach(key => {
-    if (!checkStrategy.domStyle(key) || !checkStrategy.domStyle(key, value)) {
+    if (!checkStrategy.domStyle(key) || !checkStrategy.cssSupport(key, value)) {
       console.warn(`css property ${key} is no support in current environment ${window.navigator.userAgent}`);
     }
   })
