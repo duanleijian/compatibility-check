@@ -4,6 +4,15 @@
   "description": "兼容性检测工具",
   "version": "1.0.4",
   "author": "leijianduan",
+  "files": [
+    "scripts",
+    "style",
+    "utils",
+    "constants.js",
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "compatible",
     "command",
